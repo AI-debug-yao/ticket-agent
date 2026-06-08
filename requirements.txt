@@ -1,0 +1,9 @@
+dashscope==1.22.1
+matplotlib>=3.7.0,<3.10.0
+numpy>=1.23.0,<2.0.0
+pandas>=2.0.0,<2.3.0
+qwen-agent[gui]==0.0.19
+scikit-learn>=1.3.0,<1.6.0
+SQLAlchemy==2.0.23
+mysql-connector-python>=8.0.0,<9.0.0
+python-dotenv>=1.0.0
