@@ -36,7 +36,7 @@
 
 ```bash
 # 使用您的 Python 解释器安装依赖
-/opt/homebrew/bin/python3.11 -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ## 配置
@@ -68,7 +68,7 @@ DASHSCOPE_TIMEOUT=30
 - 适合快速数据查询
 
 ```bash
-/opt/homebrew/bin/python3.11 assistant_ticket_bot-1.py
+python3 assistant_ticket_bot-1.py
 ```
 
 **典型问题示例：**
@@ -83,7 +83,7 @@ DASHSCOPE_TIMEOUT=30
 - 自动推断 X/Y 轴字段
 
 ```bash
-/opt/homebrew/bin/python3.11 assistant_ticket_bot-2.py
+python3 assistant_ticket_bot-2.py
 ```
 
 **典型问题示例：**
@@ -98,7 +98,7 @@ DASHSCOPE_TIMEOUT=30
 - 支持复杂数据透视
 
 ```bash
-/opt/homebrew/bin/python3.11 assistant_ticket_bot-3.py
+python3 assistant_ticket_bot-3.py
 ```
 
 **典型问题示例：**
@@ -110,7 +110,7 @@ DASHSCOPE_TIMEOUT=30
 功能最全面的分析工具，包含机器学习分析能力：
 
 ```bash
-/opt/homebrew/bin/python3.11 assistant_revenue_bot.py
+python3 assistant_revenue_bot.py
 ```
 
 **核心功能：**
